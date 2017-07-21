@@ -1,0 +1,321 @@
+body {
+    margin: 0;
+    font-family: 'Lemonada', cursive;
+}
+
+/* Start of nav styles */
+.main-nav {
+    background: #bf9576;
+    padding: 15px;
+    height: 80px;
+    outline-color: #000;
+    outline-width: 2px;
+    outline-style: dotted;
+}
+
+.logo {
+    height: 100%;
+    width: 100px;
+}
+
+.nav-list {
+    float: right;
+    list-style: none;
+    margin: 25px 0px;
+}
+.nav-item {
+    float: left;
+    margin-left: 15px;
+}
+
+.nav-link {
+    text-decoration: border;
+    color: #fff;
+}
+.nav-link:hover{
+    color:#06157C ;
+    text-decoration: overline;
+}
+
+/* End of nav section*/
+
+/*Start of hero section*/
+
+.hero-section {
+    background-image: url('../images/icecream-background.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brand-name {
+    margin: 0;
+    color: #000;
+    text-align: center;
+    padding-top: 175px;
+    font-size: 36px;
+    outline-color: #fff
+    outline-width: 1px;
+}
+    
+.brand-background {
+    background-color: rgba(193, 242, 196, .7);
+    padding: 20px;
+    border: solid black;
+}
+
+/*End of hero section */
+
+/* Start of column section styles */
+
+.info-columns {
+    padding: 15px;
+    
+}
+
+.info-columns::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.column {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 1%;
+    margin-left: 1%;
+    background-color: rgba(242, 125, 189, .5);
+   
+    
+}
+
+.column-image {
+    height: 250px;
+    width: 100%;
+
+}
+
+.column-button {
+    padding: 6px 12px;
+    border-radius: 8px;
+    border: none;
+    background: #ffe135;
+    margin-top: 36px;
+}
+
+.column-button2 {
+    padding: 6px 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f70449;
+    margin-top: 36px;
+}
+
+.column-button3 {
+    padding: 6px 12px;
+    border-radius: 8px;
+    border: none;
+    background: #00adf7;
+}
+
+/* End of column section styles */
+
+/* Start of Description Section Styles*/
+
+.sprinkles-container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.description-column {
+    width: 50%;
+    float: left;
+    text-align: center;
+    height: 300px;
+}
+
+.description-column p {
+    padding: 0px 15px;
+}
+
+.description-image {
+    width: 75%;
+    height: 250px;
+    margin-top: 25px;
+    border: solid white;
+}
+.one {
+    background-color: #00adf7;
+    width: 50%;
+    height: 300px;
+}
+.description-background {
+    background-color: #d4aef9;
+    
+}
+
+.two {
+    background-color: #f70449;
+}
+
+.three {
+    background-color: #ffe135;
+}
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+/* End of Description Section Styles*/
+
+/* Start of footer section styles */
+.footer-container {
+    height: 50px;
+    padding: 15px;
+    border: 1px solid #000;
+    background-color: #7fffd4;
+}
+
+.social-media-container {
+    width: 15%;
+    margin-top: 15px;
+}
+
+.social-media-container .fa {
+    font-size: 18px;
+    color: blue;
+    margin-left: 15%;
+}
+
+.contact-container {
+    width: 70%;
+    text-align: center;
+    
+}
+.left {
+    float: left;
+
+}
+
+.right {
+    float: right;
+    text-align: center;
+}
+
+.copyright {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 10px;
+}
+
+.contact-info {
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+/* End of footer section styles */
+
+/* Start of Contact Page styles */
+
+.form-container {
+    width: 50%;
+    padding: 25px;
+    margin: 0 auto;
+    background: rgba(210, 210, 155, .65);
+}
+
+.contact-page {
+    height: initial;
+    padding-bottom: 15px;
+    background-attachment: fixed;
+    
+}
+
+.contact-header {
+    color: #fff;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+/* End of Contact Page styles */
+
+/*=================Start of About Page styles================================*/
+
+.banner{
+    height: 300px;
+    background: pink;
+}
+
+.icecream-animate {
+    height: 100px;
+    position: absolute;
+    top: calc(100%/3);
+    left: 45%;
+    transition: all 2s;
+}
+
+.icecream-animate:hover {
+    left: 90%;
+    transform: rotateX(360deg);
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.picture-container {
+    float: left;
+    height: 400px;
+    width: 50%;
+}
+
+.parlor-picture {
+    width: 75%;
+    height: 75%;
+    padding: 50px;
+}
+.about-text {
+    font-family: 'Corm.orant Garamond', serif;
+    background-color: rgba(239, 143, 223, .7);
+    border: 2px solid black;
+}
+
+.about-text::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.text-container {
+    float: right;
+    width: 50%;
+}
+
+.about-me {
+    text-align: justify;
+    float: right;
+    margin-left: 15px;
+}
+
+
+.background-image {
+    background-image: url('../images/about-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+/*===================End of About Page styles================================*/
