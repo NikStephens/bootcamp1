@@ -23,6 +23,7 @@ body {
     list-style: none;
     margin: 25px 0px;
 }
+
 .nav-item {
     float: left;
     margin-left: 15px;
@@ -32,6 +33,7 @@ body {
     text-decoration: border;
     color: #fff;
 }
+
 .nav-link:hover{
     color:#06157C ;
     text-decoration: overline;
@@ -54,7 +56,7 @@ body {
     text-align: center;
     padding-top: 175px;
     font-size: 36px;
-    outline-color: #fff
+    outline-color: #fff;
     outline-width: 1px;
 }
     
@@ -78,6 +80,7 @@ body {
     display: block;
     clear: both;
 }
+
 .column {
     width: 30%;
     float: left;
@@ -145,11 +148,13 @@ body {
     margin-top: 25px;
     border: solid white;
 }
+
 .one {
     background-color: #00adf7;
     width: 50%;
     height: 300px;
 }
+
 .description-background {
     background-color: #d4aef9;
     
@@ -162,6 +167,7 @@ body {
 .three {
     background-color: #ffe135;
 }
+
 h2 {
     text-align: center;
 }
@@ -169,9 +175,11 @@ h2 {
 p {
     text-align: center;
 }
+
 /* End of Description Section Styles*/
 
 /* Start of footer section styles */
+
 .footer-container {
     height: 50px;
     padding: 15px;
@@ -195,6 +203,7 @@ p {
     text-align: center;
     
 }
+
 .left {
     float: left;
 
@@ -242,6 +251,7 @@ p {
     margin-top: 0px;
     padding-top: 10px;
 }
+
 /* End of Contact Page styles */
 
 /*=================Start of About Page styles================================*/
@@ -280,6 +290,7 @@ h1 {
     height: 75%;
     padding: 50px;
 }
+
 .about-text {
     font-family: 'Corm.orant Garamond', serif;
     background-color: rgba(239, 143, 223, .7);
@@ -308,7 +319,6 @@ h3 {
     margin-left: 15px;
 }
 
-
 .background-image {
     background-image: url('../images/about-background.jpg');
     background-repeat: no-repeat;
@@ -316,6 +326,12 @@ h3 {
     background-attachment: fixed;
     padding-bottom: 15px;
     padding-top: 15px;
+}
+
+.video-container {
+    height: 350px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 /*===================End of About Page styles================================*/
